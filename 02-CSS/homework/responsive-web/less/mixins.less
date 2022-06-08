@@ -1,1 +1,22 @@
 // Mixins acá
+.btn(@color, @background, @border) {
+    display: inline;
+    padding: 10px;
+    background-color: @background;
+    font-size: 16px;
+    border-radius: @border;
+    color: @color;
+    border : 1px solid @background;
+    cursor: pointer;
+    &:hover {
+        background-color: @footer-font-color;
+        color: #000;
+    }
+    @media @phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+
