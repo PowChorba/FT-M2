@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.listas {
+    width: 100%;
+    
+}
+
+#lista li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.segundo-container {
+    width: 50%;
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.delete button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    
+    
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.delete input {
+    margin: 10px 0px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.delete #success {
+    padding: 10px 0px;
+}

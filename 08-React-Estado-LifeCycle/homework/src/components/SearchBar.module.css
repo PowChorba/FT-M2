@@ -1,0 +1,28 @@
+.input {
+    margin: 5px;
+    padding: 3px 10px;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #B0A8B9;
+    text-align: center;
+    background: none;
+    color: #fff;
+}
+
+.boton {
+    border: none;
+    background-color: #3596B5;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px ;
+    outline: none;
+}
+
+.boton:focus{
+    outline: none;
+}
+
+.boton:hover {
+    background-color: #504f52;
+    transition: .5s;
+}

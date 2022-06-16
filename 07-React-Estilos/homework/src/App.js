@@ -6,6 +6,7 @@ import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
 function App() {
+  
   return (
     <div className="App">
       <div>

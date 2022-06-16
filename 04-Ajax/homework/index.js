@@ -14,10 +14,8 @@ $('#search').click(function(){
    if(input.value){
     $.get(`http://localhost:5000/amigos/${input.value}`, function (dato){
        $('#amigo').text(`  El nombre localizado es: ${dato.name}`)
+       
     })
-   }
-    if(!input.value){
-       $('#amigo').text(' No ingresaste ningun valor')
    }
    if (input.value > 6 || input.value < 1){
     $('#amigo').text('  No se encuentra ningun nombre con ese ID')
